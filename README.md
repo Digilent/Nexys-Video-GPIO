@@ -3,7 +3,7 @@ Nexys Video GPIO Demo
 
 This project is a Vivado demo using the Nexys Video's switches, LEDs, pushbuttons, onboard OLED display and USB UART bridge, written in VHDL and Verilog. When programmed onto the board, all eight of the switches are tied to their corresponding LEDs. Every time a switch is toggled, the LED directly above it will toggle with it. On startup the onboard OLED will display the full alphabet and numbers 0-9. After a second of displaying the alphabet/numbers the OLED will turn off for a second and then display the message “This is Digilent's Nexys Video”. 
 
-To use the USB-UART bridge feature of this demo, the Nexys Video must be connected to a serial terminal on the computer it is connected to over the MicroUSB cable. For more information on how to set up and use a serial terminal, such as Tera Term or PuTTY, refer to [this tutorial](https://reference.digilentinc.com/learn/programmable-logic/tutorials/tera-term).Whenever the reset button or BTNC is pressed, the Basys 3 sends the line “Nexys Video GPIO/UART DEMO!” to the serial terminal. Whenever one of the D-pad buttons other than BTNC is pressed, the line “Button press detected!” is sent.
+To use the USB-UART bridge feature of this demo, the Nexys Video must be connected to a serial terminal on the computer it is connected to over the MicroUSB cable. For more information on how to set up and use a serial terminal, such as Tera Term or PuTTY, refer to [this tutorial](https://reference.digilentinc.com/learn/programmable-logic/tutorials/tera-term). Whenever the reset button or BTNC is pressed, the Basys 3 sends the line “Nexys Video GPIO/UART DEMO!” to the serial terminal. Whenever one of the D-pad buttons other than BTNC is pressed, the line “Button press detected!” is sent.
 
 Important Warning
 -------------
@@ -44,3 +44,4 @@ Additional Notes
 --------------
 For more information on how this project is version controlled, refer to the [Digilent Vivado Scripts Repository](https://github.com/digilent/digilent-vivado-scripts)
 
+<!--- 03/12/2019 (ArtVVB): Validated in Hardware with 2018.2 --->
