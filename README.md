@@ -23,7 +23,7 @@ Requirements
 Demo Setup
 --------------
 1. Download and extract the most recent release ZIP archive from this repository's [Releases Page](https://github.com/Digilent/Nexys-Video-GPIO/releases).
-2. Open the project in Vivado 2020.1 by double clicking on the included XPR file found at "\<archive extracted location\>/vivado_proj/Nexys-Video-GPIO.xpr".
+2. Open the project in Vivado 2020.1 by double clicking on the included XPR file found at "\<archive extracted location\>/Nexys-Video-GPIO/Nexys-Video-GPIO.xpr".
 3. In the Flow Navigator panel on the left side of the Vivado window, click **Open Hardware Manager**.
 4. Plug the Nexys Video into the computer using a MicroUSB cable.
 5. Open a serial terminal emulator (such as TeraTerm) and connect it to the Nexys Video's serial port, using a baud rate of 9600.
@@ -44,4 +44,5 @@ Additional Notes
 --------------
 For more information on how this project is version controlled, refer to the [Digilent Vivado Scripts Repository](https://github.com/digilent/digilent-vivado-scripts)
 
+<!--  07/16/2020 (bbardi): Validated in Hardware with 2020.1 --->
 <!--- 03/12/2019 (ArtVVB): Validated in Hardware with 2018.2 --->
